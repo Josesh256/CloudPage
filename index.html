@@ -4,53 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TI Page</title>
+    <title>Cloud</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    rel="shortcut icon"
+    href="assets/img/trick-treat5-img.png"
+    type="image/x-icon"
+  />
   </head>
   <body>
-    <!-- #region HEADER -->
+    <!-- #region ENCABEZADO -->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">
-          <img src="./assets/img/cloud2.png" alt="" class="nav__logo-img" />
-          <br />
+          <img
+            src="assets/img/cloud2.png"
+            alt=""
+            class="nav__logo-img"
+          />
           Cloud
         </a>
-        <div id="nav-menu" class="nav__menu">
-          <ul>
-            <li class="nav__item active-link">
-              <a href="#home">Home</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">About</a>
             </li>
             <li class="nav__item">
-              <a href="#services" class="nav__link">Services</a>
+              <a href="#trick" class="nav__link">Candy</a>
             </li>
             <li class="nav__item">
-              <a href="#newservices" class="nav__link">New</a>
+              <a href="#new" class="nav__link">New</a>
             </li>
-            <a href="#support" class="button button-ghost">Support</a>
+            <a href="#" class="button button--ghost">Support</a>
           </ul>
-          <div class="nav__close">
+          <div class="nav__close" id="nav-close">
             <i class="bx bx-x"></i>
           </div>
-          <img
-            src="./assets/img/cloud2.png"
-            width="234"
-            alt=""
-            class="nav__img"
-          />
+          <img src="assets/img/nav-img.png" alt="" class="nav__img" />
         </div>
         <div class="nav__toggle" id="nav-toggle">
           <i class="bx bx-grid-alt"></i>
@@ -58,9 +59,9 @@
       </nav>
     </header>
     <!-- #endregion -->
-    <!-- #region Main -->
+    <!-- #region Principal-->
     <main class="main">
-      <!-- Inicial Main -->
+      <!--Menu inicial-->
       <section class="home container" id="home">
         <div class="swiper home-swiper">
           <div class="swiper-wrapper">
@@ -69,7 +70,7 @@
               <div class="home__content grid">
                 <div class="home__group">
                   <img
-                    src="assets/img/footer1-img.png"
+                    src="assets/img/i1.png"
                     alt=""
                     class="home__img"
                   />
@@ -195,8 +196,7 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
-      <!-- #region Categorias-->
-
+      <!--Categirias-->
       <section class="section category">
         <h2 class="section__title">
           Susto Favorito <br />
@@ -241,7 +241,6 @@
           </div>
         </div>
       </section>
-      <!-- #endregion -->
       <!--Acerca de-->
       <section class="section about" id="about">
         <div class="about__container container grid">
@@ -583,10 +582,9 @@
 
       <span class="footer__copy">&#169; Halloween page</span>
 
-      <img src="assets/img/footer1-img.png" alt="" class="footer__img-one" />
-      <img src="assets/img/footer2-img.png" alt="" class="footer__img-two" />
+      <img src="assets/img/i1.png" alt="" class="footer__img-one" />
+      <img src="assets/img/i0.png" alt="" class="footer__img-two" />
     </footer>
-
     <!-- #endregion -->
     <a href="#" class="scrollup" id="scroll-up">
       <i class="bx bx-up-arrow-alt scrollup__icon"></i>
