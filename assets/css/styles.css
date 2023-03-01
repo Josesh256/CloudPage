@@ -5,27 +5,27 @@
 :root {
   --header-height: 3.5rem;
 
- /*Colors*/
+ /*Colors
  --hue: 210;
  --first-color: hsl(var(--hue), 91%, 54%);
  --first-color-alt: hsl(var(--hue), 91%, 50%);
  --title-color: hsl(var(--hue), 4%, 100%);
  --text-color: hsl(var(--hue), 4%, 95%);
- --text-color-light: hsl(var(--hue), 4%, 55%);
+ --text-color-light: hsl(var(--hue), 4%, 55%);*/
 
- /*variante de colores
+ /*variante de colores*/
  --hue: 199;
  --first-color: hsl(var(--hue), 91%, 54%);
  --first-color-alt: hsl(var(--hue), 91%, 50%);
  --title-color: hsl(var(--hue), 4%, 100%);
  --text-color: hsl(var(--hue), 4%, 95%);
- --text-color-light: hsl(var(--hue), 4%, 55%);*/
+ --text-color-light: hsl(var(--hue), 4%, 55%);
   
  /*Green gradient*/
  --body-color: linear-gradient(
   90deg,
-  hsl(195, 84%, 75%) 0%,
-  hsl(219, 92%, 54%) 100%
+  hsl(0, 0%, 0%) 0%,
+  hsl(212, 92%, 53%) 100%
 );
 --container-color: linear-gradient(
   136deg,
@@ -175,7 +175,7 @@ button{
 }
 
 .nav__logo-img{
-  width: 1.25rem;
+  width: 3.25rem;
 }
 
 .nav__link,
@@ -671,7 +671,7 @@ button{
 }
 
 .footer__logo-img{
-  width: 20px;
+  width: 50px;
 }
 
 .footer__description{
